@@ -1,0 +1,143 @@
+
+@import url(//db.onlinewebfonts.com/c/67b5678a3e0636876127d9b9767f5a93?family=Bosch+Sans+Bold);
+
+@font-face {font-family: "Bosch Sans Bold"; src: url("//db.onlinewebfonts.com/t/67b5678a3e0636876127d9b9767f5a93.eot"); src: url("//db.onlinewebfonts.com/t/67b5678a3e0636876127d9b9767f5a93.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/67b5678a3e0636876127d9b9767f5a93.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/67b5678a3e0636876127d9b9767f5a93.woff") format("woff"), url("//db.onlinewebfonts.com/t/67b5678a3e0636876127d9b9767f5a93.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/67b5678a3e0636876127d9b9767f5a93.svg#Bosch Sans Bold") format("svg"); } 
+
+html {
+    height: 100%;
+  }
+  body {
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding:0;
+    font-family: Bosch Sans Bold,sans-serif;
+    
+    
+  }
+  body{
+    background-image: url("../img/back_aut_img.jpg");
+    background-color: #00BFFF;
+    background-size: cover;
+    background-position: top center;    
+    background-blend-mode: luminosity;
+    color: #f2f2f2;
+
+  }
+
+  
+  .login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+  }
+  
+  .login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #f2f2f2;
+    text-align: center;
+  }
+  
+  .login-box .user-box {
+    position: relative;
+  }
+  
+  .login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 20px;
+    color: #f2f2f2;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #f2f2f2;
+    outline: none;
+    background: transparent;
+  }
+  .login-box .user-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 20px;
+    color: #f2f2f2;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .login-box .user-box input:focus ~ label,
+  .login-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color:red;
+    font-size: 12px;
+  }
+  
+  .botao_cad {
+    
+    border: solid;
+    border-color: red;
+    border-radius: 3px;
+    position: relative;    
+    display: block;    
+    padding: 10px 20px;
+    color: red;
+    font-size: 20px;    
+    text-decoration: none;    
+    overflow: hidden;
+    transition: .5s;
+    margin: auto;
+    text-align: center;
+    background: transparent;   
+    
+    
+  }
+  
+  .botao_cad:hover {
+    background: #013b69;
+    color: red;
+    border-radius: 5px;
+   
+  }
+
+  #info{
+    text-align: center;
+  }
+
+  #home-icon{
+    display: flex;
+    justify-content: center;    
+    padding: 10px; 
+    border: solid;        
+    border-color: red;
+    border-radius: 10px;
+    margin-inline-start: 70px;
+    margin-inline-end: 70px;
+    margin-top: 20px;
+  }
+
+  #home{
+    position: relative;
+    height: 40px;
+    
+  }
+
+  .page-footer {
+    position:absolute;
+    top: 95%;
+    width: 100%;
+    height: 5%;     
+    flex-direction: column-reverse;
+    background: #f2f2f2;
+    color: black;
+    text-align: left;
+    
+}
+  

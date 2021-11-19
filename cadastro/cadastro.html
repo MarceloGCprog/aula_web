@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/cadastro.css" rel="stylesheet">
+    <script type="text/javascript" src="js/cadastro.js"></script> 
+    <title>BOSCH - Invented for life </title>
+</head>
+<body>   
+    <div class="login-box">
+        <h2>Novo Usuário</h2>
+        <form id="dadosCadastro">
+          <div class="user-box">
+            <input type="text" id="nome"  required>
+            <label>Nome Completo</label>
+          </div>          
+          <div class="user-box">
+            <input type="email" id="email"  required>
+            <label>E-mail</label>
+          </div>          
+          <div class="user-box">
+            <input type="password" id="senha"  required>
+            <label>Senha</label>
+          </div>
+          <div class="user-box">
+            <input type="password" id="confsenha" required>
+            <label>Confirme sua senha</label>
+          </div>
+          <button class="botao_cad" id="botao_cad" onclick=Dadosarquivos()>Cadastrar conta</button>
+          <div id="home-icon">
+            <a href="../index.html"><img id="home" src="img/PngItem_2619202.png"></a>
+          </div>          
+          <p id="info"></p>
+                           
+        </form>
+      </div>
+      <div class="page-footer">
+        <small>Aluno Marcelo Carvalho</small>
+      </div>        
+      
+</body>
+</html>

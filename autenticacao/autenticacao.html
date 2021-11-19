@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/autenticacao.css" rel="stylesheet">
+    <script type="text/javascript" src="js/autenticacao.js"></script> 
+    <title>BOSCH - Invented for life </title>
+</head>
+<body>
+  <div class="wrapper">
+    <header class="page-header">
+      <nav>
+        <img src="img/bosch-logo.png" class="logo-image"/>
+        <a href="../index.html"><img src="img/PngItem_2619202.png" id="home-icon"/> </a>       
+        
+      </nav>
+    </header>
+    <main class="page-main">
+      
+    </main>
+    <footer class="page-footer">
+      <small>Aluno Marcelo Carvalho</small>      
+    </footer>
+    <div class="login-box">
+      <h2>Autenticação</h2>
+      <form>
+        <div class="user-box">
+          <input type="text" id="usuario"  required>
+          <label>Usuário </label>
+        </div>
+        <div class="user-box">
+          <input type="password" id="senhalog"  required>
+          <label>Senha</label>
+        </div>
+        <div>
+        <a class="box-bottom" id="botao-login" onclick=dadosLogin()>          
+          Login            
+        </a>       
+        <a class="box-bottom" href='../cadastro/cadastro.html' target="blank">          
+          Cadastrar
+          <br>          
+        </a>
+        </div>        
+      <a  id="esquecerSenha" href="#">Esqueceu sua senha?</a>
+      <p id="info"></p>
+        </form>
+        
+      </div>
+  </div>
+
+</body>
+</html>
