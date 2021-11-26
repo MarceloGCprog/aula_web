@@ -11,7 +11,7 @@ function dadosLogin(){
     if(dados[0][1]== usuario && dados[0][2]== senha){
     
      document.getElementById("info").innerHTML = "<h3> Login realizado! </h3>";
-    setTimeout(() => {window.location.href="../index.html"}, 500); 
+    setTimeout(() => {window.location.href="../pagamento/pagamento.html"}, 500); 
 
     }else{
        document.getElementById("info").innerHTML = "<p> Usuário ou senha inválidos <p>";

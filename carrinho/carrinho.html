@@ -4,30 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="index/css/index.css" rel="stylesheet">    
-    <script type="text/javascript" src="index/js/index.js" defer></script>    
+    <link href="css/carrinho.css" rel="stylesheet">    
+    <script type="text/javascript" src="js/carrinho.js" defer></script>    
 <title>BOSCH - Invented for life</title>
 </head>
 <body>
   <div class="wrapper">
     <header class="page-header">
       <nav>
-        <img src="index/img/bosch-logo.png" class="logo-image"/>        
+        <img src="img/bosch-logo.png" class="logo-image"/>        
         <div class="icons-header">
         <!--<button class="cta-contact" value="login" onclick="location.href='autenticacao/autenticacao.html'">Login</button>
         <button class="cta-contact" value="cadastrar" onclick="location.href='cadastro/cadastro.html'">Cadastrar</button> -->
-        <a href="autenticacao/autenticacao.html"><img id="sign-in" src="index/img/icons/sign-in-alt-solid.png"/> </a>
-        <a href="cadastro/cadastro.html"><img id="new-user" src="index/img/icons/user-regular.png"/> </a>
-        <a href="carrinho/carrinho.html"><img id="cart-icon" src="index/img/icons/shopping-cart-solid.png"/> </a>
+        <a href="../autenticacao/autenticacao.html"><img id="sign-in" src="img/icons/sign-in-alt-solid.png"/> </a>
+        <a href="../cadastro/cadastro.html"><img id="new-user" src="img/icons/user-regular.png"/> </a>
+        <a href="../index.html"><img id="home-icon" src="img/icons/PngItem_2619202.png"/> </a>
         </div>
       </nav>
     </header>
     <main class="page-main">
-      <div id="produtos-texto"> Produtos</div>
+      <div id="produtos-texto"> Carrinho</div>
       <div class="vitrine"> 
-        <div id="produtos">
-
-        
+        <div id="produtos"></div>
+        <div class="card-pagamento">
+        <div id ="totalCarrinho"> Total</div>
+        <button id="bottaoPagamento" onclick="location.href='../autenticacao/autenticacao.html'">Pagamento</button>
         </div>
       </div>       
       </div>
